@@ -106,6 +106,7 @@
         <url>http://github.com/dropwizard/metrics/issues#issue/</url>
     </issueManagement>
 
+<!-- COMMENT OUT FOR VAST OVERRIDE
     <distributionManagement>
         <snapshotRepository>
             <id>sonatype-nexus-snapshots</id>
@@ -118,6 +119,7 @@
             <url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
+-->
 
     <dependencyManagement>
         <dependencies>
