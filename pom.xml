@@ -50,7 +50,28 @@
         <jetty9.legacy.version>9.0.4.v20130625</jetty9.legacy.version>
         <jetty9.version>9.2.2.v20140723</jetty9.version>
         <rabbitmq.version>3.3.5</rabbitmq.version>
+
+<!-- BEGIN VAST OVERRIDE -->
+      <!-- override these in your local settings.xml -->
+      <release.repo.id>UNDEFINED</release.repo.id>
+      <release.repo.url>UNDEFINED</release.repo.url>
+      <snapshot.repo.id>UNDEFINED</snapshot.repo.id>
+      <snapshot.repo.url>UNDEFINED</snapshot.repo.url>
+<!-- END VAST OVERRIDE -->
     </properties>
+ 
+<!-- BEGIN VAST OVERRIDE -->
+  <distributionManagement>
+      <repository>
+          <id>${release.repo.id}</id>
+          <url>${release.repo.url}</url>
+      </repository>
+      <snapshotRepository>
+          <id>${snapshot.repo.id}</id>
+          <url>${snapshot.repo.url}</url>
+      </snapshotRepository>
+  </distributionManagement>
+<!-- END VAST OVERRIDE -->
 
     <developers>
         <developer>
