@@ -95,9 +95,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git://github.com/dropwizard/metrics.git</connection>
-        <developerConnection>scm:git:git@github.com:dropwizard/metrics.git</developerConnection>
-        <url>http://github.com/dropwizard/metrics/</url>
+        <connection>scm:git:git://github.com/vast-engineering/metrics.git</connection>
+        <developerConnection>scm:git:git@github.com:vast-engineering/metrics.git</developerConnection>
+        <url>http://github.com/vast-engineering/metrics/</url>
         <tag>v3.1.0-vast-0.1</tag>
     </scm>
 
